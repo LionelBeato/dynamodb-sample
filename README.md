@@ -4,7 +4,7 @@ Sample Spring Boot Project with DynamoDB
 
 In order to create your table locally with aws-cli, perform the following:
 
-```
+```bash
 aws dynamodb create-table \
    --table-name ProductInfo \
    --attribute-definitions AttributeName=id,AttributeType=S \
