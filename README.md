@@ -14,4 +14,4 @@ aws dynamodb create-table \
 ```
 
 ---
-Code based off this tutorial: https://www.baeldung.com/spring-data-dynamodb
+_Code based off this tutorial: https://www.baeldung.com/spring-data-dynamodb_
