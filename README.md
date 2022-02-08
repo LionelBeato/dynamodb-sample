@@ -13,5 +13,5 @@ aws dynamodb create-table \
    --endpoint-url http://localhost:8000
 ```
 
--------
+---
 Code based off this tutorial: https://www.baeldung.com/spring-data-dynamodb
