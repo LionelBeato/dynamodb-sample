@@ -4,13 +4,10 @@ import com.amazonaws.services.dynamodbv2.AmazonDynamoDB;
 import com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBMapper;
 import com.amazonaws.services.dynamodbv2.model.CreateTableRequest;
 import com.amazonaws.services.dynamodbv2.model.ProvisionedThroughput;
-import com.amazonaws.services.dynamodbv2.model.ResourceInUseException;
 
-import com.example.demo.DemoApplication;
-import com.example.demo.ProductInfo;
-import com.example.demo.ProductInfoRepository;
+import com.example.demo.model.ProductInfo;
+import com.example.demo.repository.ProductInfoRepository;
 import org.junit.Before;
-import org.junit.ClassRule;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
